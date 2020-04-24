@@ -1,11 +1,11 @@
+### How to build the Book 
 
 Book files based on https://github.com/rstudio/bookdown-demo
 
 A good reference is also http://seankross.com/2016/11/17/How-to-Start-a-Bookdown-Book.html 
 
-###  info on how to best save the figures 
+Info on how to best save the figures 
 https://www.jumpingrivers.com/blog/r-knitr-markdown-png-pdf-graphics/
-
 
 Build the html book with 
 
@@ -16,7 +16,9 @@ bookdown::render_book(input = "index.Rmd", output_format = "bookdown::pdf_book")
 
 one can directly run the (executable) builder.sh to do that (or use that to "build the book" in RStudio) 
 
-## the output wil be in the docs/ folder - so we can easily built a github page website from this 
+The output wil be in the docs/ folder - so we can easily built a github page website from this 
+
+### About the content of the book 
 
 TOC of the paper was 
 
