@@ -22,12 +22,12 @@ The output wil be in the docs/ folder - so we can easily built a github page web
 
 TOC of the paper was 
 
-01 Introduction
-02 The benefits and advantages of using R in hydrology
-03 R packages in a typical hydrological workflow
-04 Challenges and solutions when using R in hydrology
-05 A roadmap for the future of R in hydrology
-06 Conclusions 
+* 01 Introduction
+* 02 The benefits and advantages of using R in hydrology
+* 03 R packages in a typical hydrological workflow
+* 04 Challenges and solutions when using R in hydrology
+* 05 A roadmap for the future of R in hydrology
+* 06 Conclusions 
 
 I think this could be a sensible start - Section 3 could probably become some chapters and we should have case studies? 
 
