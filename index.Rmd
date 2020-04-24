@@ -1,0 +1,30 @@
+--- 
+title: "R for Hydrology"
+author: "The team!"
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+---
+
+
+# Preamble
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(dev = "png", dev.args = list(type = "cairo-png"),
+                      fig.align='center', cache = TRUE,tidy=TRUE)
+```
+
+Here we write some small text. 
+
+The book is an extension of the original paper [@SlaterEtAl_HydroR] in which the history that lead to the increased interest in R from the hydrological community is briefly outlined. 
+
+
+```{r echo=FALSE}
+# if we want a date date: "`r Sys.Date()`"
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```

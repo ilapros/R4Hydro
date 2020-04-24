@@ -1,0 +1,26 @@
+# Introduction {#intro}
+
+```{r setup01, include=FALSE,cache=FALSE}
+knitr::opts_chunk$set(dev = "png", dev.args = list(type = "cairo-png"),
+                      fig.align='center', cache = TRUE,tidy=TRUE)
+```
+
+This is now chapter 2 (maybe an introduction). 
+
+We can use the usual Rmarkdown tricks. 
+
+```{r}
+## so we can write
+2+2
+```
+
+
+You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015]. 
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```

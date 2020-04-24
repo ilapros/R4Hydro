@@ -1,0 +1,5 @@
+[
+["index.html", "R for Hydrology Chapter 1 Preamble", " R for Hydrology The team! Chapter 1 Preamble Here we write some small text. The book is an extension of the original paper (Slater et al. 2019) in which the history that lead to the increased interest in R from the hydrological community is briefly outlined. References "],
+["intro.html", "Chapter 2 Introduction", " Chapter 2 Introduction This is now chapter 2 (maybe an introduction). We can use the usual Rmarkdown tricks. You can write citations, too. For example, we are using the bookdown package (Xie 2018) in this sample book, which was built on top of R Markdown and knitr (Xie 2015). References "],
+["ref.html", "Chapter 3 References", " Chapter 3 References "]
+]
